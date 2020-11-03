@@ -12,7 +12,7 @@ int main() {
 		}
 		putchar('\n');
 	}
-
+    printf("我爱我的祖国！"); 
 	getchar();
 	return 0;
 }
