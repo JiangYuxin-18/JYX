@@ -76,13 +76,13 @@ int main(void)
 	}
 	w = (d+2*m+3*(m+1)/5+y+y/4-y/100+y/400+1)%7;
 	switch (w){
-		case 6: printf("ĞÇÆÚÁù");   break;  
-		case 5: printf("ĞÇÆÚÎå");   break; 
-		case 4: printf("ĞÇÆÚËÄ");   break; 
-		case 3: printf("ĞÇÆÚÈı");   break; 
-		case 2: printf("ĞÇÆÚ¶ş");   break;
-		case 1: printf("ĞÇÆÚÒ»");   break;
-		case 0: printf("ĞÇÆÚÈÕ");   break; 
+		case 6: printf("æ˜ŸæœŸå…­");   break;  
+		case 5: printf("æ˜ŸæœŸäº”");   break; 
+		case 4: printf("æ˜ŸæœŸå››");   break; 
+		case 3: printf("æ˜ŸæœŸä¸‰");   break; 
+		case 2: printf("æ˜ŸæœŸäºŒ");   break;
+		case 1: printf("æ˜ŸæœŸä¸€");   break;
+		case 0: printf("æ˜ŸæœŸæ—¥");   break; 
 	}
     return 0;
 }
