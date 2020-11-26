@@ -1,4 +1,4 @@
-//·ÖÊı»¯Ğ¡Êı£¨a/b,Ğ¡ÊıµãºócÎ»£©
+//åˆ†æ•°åŒ–å°æ•°ï¼ˆa/b,å°æ•°ç‚¹åcä½ï¼‰
 #include <stdio.h>
 
 int main(void)
@@ -13,6 +13,6 @@ int main(void)
 	result = a/(float)b;
 	
 	
-	printf("the number is:%.*f",c, result);//×¢Òâ£ºÊÇ%f¶ø²»ÊÇ%d£¡£¡£¡
+	printf("the number is:%.*f",c, result);//æ³¨æ„ï¼šæ˜¯%fè€Œä¸æ˜¯%dï¼ï¼ï¼
 	return 0;
 }
