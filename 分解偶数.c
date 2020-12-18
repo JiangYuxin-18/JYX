@@ -4,8 +4,8 @@ int ODD_PRIME(int n, int m);
 
 int main()
 {
-	int n;	//ÊäÈëµÄÊý
-	int x, y;	//ÆæËØÊý
+	int n;	//è¾“å…¥çš„æ•°
+	int x, y;	//å¥‡ç´ æ•°
 	int j = 0, i = 0;
 	scanf("%d", &n);
 	if(n >=6 && n % 2 == 0)
@@ -15,7 +15,7 @@ int main()
 			x = j;
 			y = n - j;
 			ODD_PRIME(x, y);
-			int res = ODD_PRIME(x, y);//¶¨ÒåÒ»¸ö·µ»ØÖµ
+			int res = ODD_PRIME(x, y);//å®šä¹‰ä¸€ä¸ªè¿”å›žå€¼
 			if(res == 1)
 				printf("%d %d\n",x ,y);
 		}
