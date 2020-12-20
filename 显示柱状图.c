@@ -3,9 +3,9 @@
 
 int main()
 {
-   char table[21][31];//ÏÔÊ¾
-   int num[20];//½ÓÊÕÊı×Ö
-   char sign[20];//½ÓÊÕ·ûºÅ
+   char table[21][31];//æ˜¾ç¤º
+   int num[20];//æ¥æ”¶æ•°å­—
+   char sign[20];//æ¥æ”¶ç¬¦å·
    int n,i,j;
    scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -13,7 +13,7 @@ int main()
         scanf("%d",&num[i]);
         scanf("%c",&sign[i]);
     }
-    int up=0,down=0;//±íÊ¾xÖáÉÏ·½ºÍÏÂ·½¸÷ÓĞ¶àÉÙĞĞ
+    int up=0,down=0;//è¡¨ç¤ºxè½´ä¸Šæ–¹å’Œä¸‹æ–¹å„æœ‰å¤šå°‘è¡Œ
     for(i=0;i<n;i++)
     {
         if(num[i]>0&&up<num[i])
