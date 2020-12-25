@@ -4,7 +4,7 @@
 //int main() {
 //
 //    int n, i;
-//    scanf("%d", &n);  // 有n组数据
+//    scanf("%d", &n);  // 脫脨n脳茅脢媒戮脻
 //    for (i = 0; i < n; i++) {
 //
 //        int a, b, c, d;
