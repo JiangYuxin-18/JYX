@@ -8,7 +8,7 @@ int main(){
     scanf("%d\n",&n);
     for(int i=0;i<n;i++){
         string str;
-        getline(cin,str);//不能和其他输入连起来用，若连起来用，则加\n
+        getline(cin,str);//涓嶈兘鍜屽叾浠栬緭鍏ヨ繛璧锋潵鐢紝鑻ヨ繛璧锋潵鐢紝鍒欏姞\n
         string temp=str;
         reverse(temp.begin(),temp.end());
         if(temp==str) printf("yes\n");
